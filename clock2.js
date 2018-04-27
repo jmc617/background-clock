@@ -50,7 +50,8 @@ function clock() {
 
     function hexTime () {
       clock.innerHTML = hour +":"+ minute +":" + seconds;
-      // greeting.innerHTML = hello;
+      // test
+      // greeting.innerHTML = "hello";
       // document.body.style.backgroundImage = "url('morning.jpg')";
     }
     hexTime()
