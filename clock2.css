@@ -1,18 +1,19 @@
 body {
-  background-color: green;
+  background-color: #6699ff;
   background-image: url("evening.jpg");
   background-repeat: no-repeat;
+  background-position: center;
 }
 #wrapper {
   height: 575px;
   display: grid;
   grid-template-columns: 1fr;
-  border: solid yellow;
+  /* border: solid yellow; */
 }
 #clock {
   /* width: 300px; */
   /* height: 100px; */
-  border: solid;
+  /* border: solid; */
   font-style: bold;
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 250px;
@@ -22,21 +23,22 @@ body {
 }
 #greeting {
   height: 100px;
-  border: solid orange;
+  /* border: solid orange; */
   /* background-color: teal; */
   font-style: bold;
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 100px;
   text-align: center;
   display: block;
+  color: white;
 }
 @media all and (max-width: 480px){
   #clock {
-    font-size: 75px;
+    font-size: 50px;
   }
 }
 @media all and (min-width: 481px) and (max-width: 768px){
   #clock {
-    font-size: 150px;
+    font-size: 100px;
   }
 }

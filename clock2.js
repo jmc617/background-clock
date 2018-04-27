@@ -36,7 +36,7 @@ function clock() {
       }
     }
     function backgroundImg () {
-      if (hour >= 24 && hour < 12 ) {
+      if (hour >= 1 && hour < 12 ) {
         greeting.innerHTML = "Good Morning!"
         document.body.style.backgroundImage = "url('morning.jpg')"
       } else if (hour >= 12 && hour < 18) {
@@ -47,6 +47,7 @@ function clock() {
         document.body.style.backgroundImage = "url('evening.jpg')"
       }
     }
+    backgroundImg()
 
     function hexTime () {
       clock.innerHTML = hour +":"+ minute +":" + seconds;
