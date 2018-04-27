@@ -1,0 +1,42 @@
+body {
+  background-color: green;
+  background-image: url("evening.jpg");
+  background-repeat: no-repeat;
+}
+#wrapper {
+  height: 575px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: solid yellow;
+}
+#clock {
+  /* width: 300px; */
+  /* height: 100px; */
+  border: solid;
+  font-style: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 250px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+#greeting {
+  height: 100px;
+  border: solid;
+  background-color: teal;
+  font-style: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 100px;
+  text-align: center;
+  display: block;
+}
+@media all and (max-width: 480px){
+  #clock {
+    font-size: 75px;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 768px){
+  #clock {
+    font-size: 150px;
+  }
+}
