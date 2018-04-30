@@ -41,7 +41,7 @@ function clock() {
         document.body.style.backgroundImage = "url('morning.jpg')"
       } else if (hour >= 12 && hour < 18) {
         greeting.innerHTML = "Good Afternoon!"
-        document.body.style.backgroundImage = "url('afternoon.jpg)"
+        document.body.style.backgroundImage = "url('afternoon.jpg')"
       } else {
         greeting.innerHTML = "Good Evening!"
         document.body.style.backgroundImage = "url('evening.jpg')"
